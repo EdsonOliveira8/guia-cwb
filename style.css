@@ -1,0 +1,82 @@
+/*
+Cores
+
+#F6EBE2;
+#DFCCB3;
+#AD795D;
+#134455;
+
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+/* Barra de Navegação */
+.navbar{
+
+    background-color: whitesmoke;
+}
+
+
+.li-nav-iten{
+
+color:#070707;
+
+}
+
+.offcanvas.offcanvas-start {
+
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+.offcanvas-header h5 {
+    color: #D5551E; /* Cor do texto para h5 */
+    font-size: 20px; /* Tamanho da fonte para h5 */
+    
+  }
+
+/* Rodape / Footer */
+
+footer{
+
+    background-color:#2F4368;
+    height: 100px;
+}
+   
+.col-sm-4 a {
+
+    text-decoration: none;
+   
+    color: #F6EBE2;
+}
+
+.container-fluid-rodape {
+
+    height: 50px;
+   background-color: #2F4368;
+}
+
+.container-fluid-rodape p{
+
+    text-align: center;
+}
+
+.col-md-6 h2 {
+color:#D5551E; 
+font-size: 50px;
+padding-bottom: 20px;
+margin-bottom: 20px;
+justify-content: center;
+
+}
+
+.col-md-6 p{
+    color: #2F4368;
+    font-size: 20px;
+    line-height: 1.5;
+}

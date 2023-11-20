@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHO PI- Tela Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+</head>
+<body >
+   <!-- MENU DE NAVEGAÇÃO -->
+   <nav class="navbar fixed-top py-2 max-width-500"> 
+
+    <button class="navbar-toggler justify-content-start mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button> 
+
+    <form class="d-md-flex">
+      <input class="form-control " type="search" placeholder="Pesquisar...">
+    </form>
+
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end ">
+      <a href="../tela cadastro e login/login.html"><button class="btn btn-primary me-md-3" type="button"  style="background-color: #3E515F" >LOGIN</button></a>
+    </div>   
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> Cwb Guia</h5>
+        <img src="../imagens/logo1.png" style="width: 50px; height: 50px;" alt="logo">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>           
+
+    
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-start flex-grow-1 pe-5">
+        <li class="nav-item">
+          <a class="nav-link "  href="../index.html">Pagina Inicial</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="../tela restaurante/restaurante.html">Restaurantes</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Parques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shoppings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Museus</a>
+          </li>       
+      </ul>
+       
+    </div>
+  </div>
+</div>
+</nav>
+    <br>
+    <br>
+
+    <div class="container um" class="centered-content"> <!-- Formulario -->
+      <div class="container-fluid">
+        <h1 login style="text-align: center; color:#3E515F">LOGIN <span class="badge bg-secondary"></span></h1> <!-- Titulo LOGIN -->
+      </div>
+      <hr class="linha-horizontal"></hr>
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="centered-form">
+          <form>
+            <div class="row g-3 align-items-center">
+              <div class="col-12">
+                <label for="inputPassword5" class="col-form-label" style="color: #D5551E">USUÁRIO :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"  placeholder="Digite o CNPJ/E-mail...">
+              </div>
+            <div class="row g-3 align-items-center">
+              <div class="col-12 ">
+                <label for="inputPassword5" class="col-form-label" style="color: #D5551E">SENHA:</label>
+                <input type="password" id="inputPassword5"class="form-control" aria-describedby="passwordHelpBlock color:" placeholder="Digite sua senha...">
+              </div>
+              <div class="col ">
+                <span id="passwordHelpInline" class="form-text">
+                  Deve ter de 8 a 20 caracteres.
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+</div>
+        
+    
+      <div class=" container-fluid" style="text-align: center;">
+      <a href="../tela proprietario/proprietario.html"><button type="submit"style="text-align: center;" class="btn btn-primary btn-sm" >ENTRAR</button></a>
+    
+      </div>
+      <br>
+       <p style="text-align: center;"> Ainda não é membro?</p> <!-- TEXTO -->
+       <br>
+  
+      <div class=" container-fluid" style="text-align: center;"> <a href="./cadastro.html"><button type="button" class="btn btn-success btn-lg" >INSCREVA-SE</button></a>
+        <a href="./cadastro.html"></a>
+      </div> 
+      <br>
+       
+  
+          <br>
+          <br>
+          <br>
+
+          <footer class="d-flex align-items-center justify-content-center ">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="col-sm-4 text-center">
+                  <a href="../Quem Somos/quemsomos.html">Quem Somos</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                  <a href="../Faleconosco/faleconosco.html">Fala Conosco</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                  <a href="../tela cadastro e login/cadastro.html">Cadastre - se </a>
+                </div>
+              </div>
+            </div>
+          </footer>
+                          <div class="container-fluid-rodape">
+                          <p  style="color: #D5551E" > ©  Todos os Direitos Reservados </p>
+                         </div>
+          
+    
+</body>
+</html>
